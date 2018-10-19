@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var date1 = new Date();
+		var y = date1.getFullYear();
+		var m = date1.getMonth();
+		var d = date1.getDate();
+		var h = date1.getHours();
+		var m1 = date1.getMinutes();
+		var s = date1.getSeconds();
+		var x = date1.getDay();
+		switch(x){
+			case 0 :
+				x = '星期日';
+				break
+			case 1 :
+				x = '星期一';
+				break;
+			case 2 :
+				x = '星期二';
+				break;
+			case 3 :
+				x = '星期三';
+				break;
+			case 4 :
+				x = '星期四';
+				break;
+			case 5 :
+				x = '星期五';
+				break;
+			case 6 :
+				x = '星期六';
+		};			
+		console.log(y+'年'+m+'月'+d+'日'+s+'时'+m1+'分'+s+'秒'+x);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
